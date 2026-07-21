@@ -1,0 +1,76 @@
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px;
+    background:#f5f5f5;
+}
+
+.hero-text{
+    width:45%;
+}
+
+.hero-text h1{
+    font-size:50px;
+    color:#1f2937;
+}
+
+.hero-text h2{
+    margin-top:10px;
+    color:#555;
+}
+
+.hero-text p{
+    margin:20px 0;
+    font-size:18px;
+}
+
+.hero-text button{
+    padding:12px 25px;
+    background:#1f2937;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.hero-text button:hover{
+    background:gold;
+    color:black;
+}
+
+.hero-image{
+    width:50%;
+}
+
+.hero-image img{
+    width:100%;
+    border-radius:10px;
+}
+.heading{
+    text-align:center;
+    margin:40px 0 20px;
+    color:#1f2937;
+}
+
+.car-list{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:20px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    overflow-x:hidden;
+}
+
+#root{
+    width:100%;
+}

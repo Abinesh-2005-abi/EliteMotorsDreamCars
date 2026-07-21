@@ -1,0 +1,23 @@
+.contact{
+    padding:60px;
+    text-align:center;
+}
+
+.contact input,
+.contact textarea{
+    width:400px;
+    padding:12px;
+    margin:10px;
+}
+
+.contact textarea{
+    height:120px;
+}
+
+.contact button{
+    padding:12px 30px;
+    background:#1f2937;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
