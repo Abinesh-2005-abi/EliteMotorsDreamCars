@@ -1,0 +1,22 @@
+
+> student@0.0.0 build
+> vite build
+
+failed to load config from C:\Users\Arthisha\OneDrive\Desktop\react projects\EliteMotorsCars\vite.config.js
+error during build:
+Error: Build failed with 1 error:
+
+[PARSE_ERROR] Unexpected token
+ -  in vite.config.js at 389..391
+
+    at aggregateBindingErrorsIntoJsError (file:///C:/Users/Arthisha/OneDrive/Desktop/react%20projects/EliteMotorsCars/node_modules/rolldown/dist/shared/error-BHRSI0R7.mjs:48:18)
+    at unwrapBindingResult (file:///C:/Users/Arthisha/OneDrive/Desktop/react%20projects/EliteMotorsCars/node_modules/rolldown/dist/shared/error-BHRSI0R7.mjs:18:128)
+    at #build (file:///C:/Users/Arthisha/OneDrive/Desktop/react%20projects/EliteMotorsCars/node_modules/rolldown/dist/shared/rolldown-build-CtPvmZgJ.mjs:3276:34)
+    at async bundleConfigFile (file:///C:/Users/Arthisha/OneDrive/Desktop/react%20projects/EliteMotorsCars/node_modules/vite/dist/node/chunks/node.js:36075:17)
+    at async bundleAndLoadConfigFile (file:///C:/Users/Arthisha/OneDrive/Desktop/react%20projects/EliteMotorsCars/node_modules/vite/dist/node/chunks/node.js:35983:18)
+    at async loadConfigFromFile (file:///C:/Users/Arthisha/OneDrive/Desktop/react%20projects/EliteMotorsCars/node_modules/vite/dist/node/chunks/node.js:35944:42)
+    at async resolveConfig (file:///C:/Users/Arthisha/OneDrive/Desktop/react%20projects/EliteMotorsCars/node_modules/vite/dist/node/chunks/node.js:35560:22)
+    at async createBuilder (file:///C:/Users/Arthisha/OneDrive/Desktop/react%20projects/EliteMotorsCars/node_modules/vite/dist/node/chunks/node.js:33408:17)
+    at async CAC.<anonymous> (file:///C:/Users/Arthisha/OneDrive/Desktop/react%20projects/EliteMotorsCars/node_modules/vite/dist/node/cli.js:765:19) {
+  errors: [Getter/Setter]
+}
